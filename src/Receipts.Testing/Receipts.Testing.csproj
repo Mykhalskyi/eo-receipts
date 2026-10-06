@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Receipts.Testing</RootNamespace>
+    <Description>Fakes for testing code built on Receipts without calling real models.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Receipts.Core\Receipts.Core.csproj" />
+  </ItemGroup>
+</Project>

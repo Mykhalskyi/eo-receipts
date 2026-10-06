@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Receipts.Images</RootNamespace>
+    <Description>Image conversion and pre-processing for Receipts: HEIC/TIFF/BMP to JPEG, resizing, rotation, PDF pages. Based on Magick.NET.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Receipts.Core\Receipts.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.17.2" />
+  </ItemGroup>
+</Project>

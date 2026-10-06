@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Receipts.Claude</RootNamespace>
+    <Description>Anthropic Claude models for Receipts.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Receipts.Core\Receipts.Core.csproj" />
+  </ItemGroup>
+</Project>

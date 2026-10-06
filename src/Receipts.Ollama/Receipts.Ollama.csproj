@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Receipts.Ollama</RootNamespace>
+    <Description>Local vision models served by Ollama for Receipts.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Receipts.Core\Receipts.Core.csproj" />
+  </ItemGroup>
+</Project>
